@@ -1,0 +1,26 @@
+:root {
+    --red: #f00;
+}
+
+@custom-media --small-only screen and (max-width: 47.9375em);
+
+.super-style {
+    display: flex;
+
+    &__name {
+        color: var(--red);
+        width: calc(100px + 20px);
+        background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 1) 80%,
+            rgba(0, 0, 0, 0.1) 95%,
+            rgba(255, 255, 255, 0) 100%
+        );
+    }
+
+    @media (--small-only) {
+        & + & {
+            margin-top: 40px;
+        }
+    }
+}
