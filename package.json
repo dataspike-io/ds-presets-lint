@@ -1,6 +1,6 @@
 {
     "name": "ds-presets-lint",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Config files for ds-apps",
     "license": "MIT",
     "dependencies": {

@@ -18,7 +18,6 @@ module.exports = {
         '@typescript-eslint',
         'import',
         'react',
-        'cypress',
         'simple-import-sort',
         'dirnames',
         'unicorn',
