@@ -205,16 +205,6 @@ module.exports = {
                 jest: true,
                 browser: true,
             },
-        },
-        {
-            files: ['**/cypress/**/*'],
-            env: {
-                'cypress/globals': true,
-            },
-            rules: {
-                'cypress/no-assigning-return-values': 'error',
-                'cypress/no-unnecessary-waiting': 'error',
-            },
-        },
+        }
     ],
 };

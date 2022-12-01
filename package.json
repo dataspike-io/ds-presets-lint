@@ -2,7 +2,6 @@
     "name": "ds-presets-lint",
     "version": "1.0.0",
     "description": "Config files for ds-apps",
-    "author": "Good guys from Alfa-Bank",
     "license": "MIT",
     "dependencies": {
         "@alfalab/stylelint-core-vars": "1.3.0",
